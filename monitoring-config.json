@@ -1,0 +1,9 @@
+{
+  "alert_name": "High CPU Usage Alert",
+  "metric_name": "system.cpu.utilization",
+  "threshold": 80,
+  "comparison": "GREATER_THAN",
+  "duration": "5m",
+  "notification_channel": "email-devops-team",
+  "severity": "CRITICAL"
+}
